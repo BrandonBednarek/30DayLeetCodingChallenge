@@ -1,5 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
+
+/*
+ * Given a non-empty, singly linked list with head node head, return a middle node of linked list.
+ * If there are two middle nodes, return the second middle node.
+ * 
+ * 
+ * Note:
+ * The number of nodes in the given list will be between 1 and 100.
+ * 
+ * 
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int x) { val = x; }
+ * }
+ */
 
 namespace MiddleOfTheLinkedList
 {
@@ -9,7 +25,7 @@ namespace MiddleOfTheLinkedList
         {
             // Create the link list.
             LinkedList node = new LinkedList();
-            for (int i = 1; i <= 5; i++)
+            for (int i = 1; i <= 6; i++)
             {
                 node.InsertLast(node, i);
             }
@@ -24,10 +40,10 @@ namespace MiddleOfTheLinkedList
 
         public static ListNode MiddleNode(ListNode head)
         {
-            var fast = head.next;
-            var slow = head;
+            ListNode fast = head;
+            ListNode slow = head;
 
-            while (fast != null)
+            while (fast?.next != null)
             {
                 slow = slow.next;
                 fast = fast.next.next;

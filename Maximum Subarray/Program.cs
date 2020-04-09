@@ -1,5 +1,9 @@
 ﻿using System;
 
+/*
+ * Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+ */
+
 namespace Maximum_Subarray
 {
     class Program

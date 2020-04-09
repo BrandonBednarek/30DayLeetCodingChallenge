@@ -1,6 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
+/*
+ * Given an array of strings, group anagrams together.
+ * 
+ * Note:
+ * All inputs will be in lowercase.
+ * The order of your output does not matter.
+ */
+
 namespace GroupAnagrams
 {
     class Program
