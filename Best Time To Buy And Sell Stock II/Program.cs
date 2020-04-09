@@ -11,7 +11,7 @@
  * 0 <= prices[i] <= 10 ^ 4
  */
 
-namespace BestTimeToBuyAndSellStockII
+namespace Best_Time_to_Buy_and_Sell_Stock_II
 {
     class Program
     {

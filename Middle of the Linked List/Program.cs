@@ -17,7 +17,7 @@
  * }
  */
 
-namespace MiddleOfTheLinkedList
+namespace Middle_of_the_Linked_List
 {
     class Program
     {
