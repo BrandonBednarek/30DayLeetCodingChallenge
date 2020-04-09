@@ -15,7 +15,27 @@ namespace Backspace_String_Compare
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string S = "a#c";
+            string T = "b";
+            Console.WriteLine(BackspaceCompare(S, T));
+        }
+
+        public static bool BackspaceCompare(string S, string T)
+        {
+            while (S.IndexOf("#") > -1)
+            {
+                if (S.IndexOf("#") == 0)
+                    S = S.Remove(0, 1);
+                else S = S.Remove(S.IndexOf("#") - 1, 2);
+            }
+
+            while (T.IndexOf("#") > -1)
+            {
+                if (T.IndexOf("#") == 0)
+                    T = T.Remove(0, 1);
+                else T = T.Remove(T.IndexOf("#") - 1, 2);
+            }
+            return string.Equals(S, T);
         }
     }
 }
