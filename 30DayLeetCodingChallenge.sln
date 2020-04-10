@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Move Zeroes", "Move Zeroes\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Single Number", "Single Number\Single Number.csproj", "{A66B6114-C39B-4CAD-BF52-C46344407358}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Min Stack", "Min Stack\Min Stack.csproj", "{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A66B6114-C39B-4CAD-BF52-C46344407358}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A66B6114-C39B-4CAD-BF52-C46344407358}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A66B6114-C39B-4CAD-BF52-C46344407358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
