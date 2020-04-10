@@ -40,7 +40,7 @@ namespace Min_Stack
 
     public class MinStack
     {
-        private Stack<(int val, int min)> _stack;
+        private readonly Stack<(int val, int min)> _stack;
 
         /** initialize your data structure here. */
         public MinStack()
