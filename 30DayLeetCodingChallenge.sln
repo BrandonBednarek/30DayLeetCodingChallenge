@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Subarray", "Maximum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backspace String Compare", "Backspace String Compare\Backspace String Compare.csproj", "{29BB4C81-B269-4EFD-8421-C2FF2612098F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best Time to Buy and Sell Stock II", "Best Time to Buy and Sell Stock II\Best Time to Buy and Sell Stock II.csproj", "{86EED15B-4886-4786-8851-653C4F3F37A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Best Time to Buy and Sell Stock II", "Best Time to Buy and Sell Stock II\Best Time to Buy and Sell Stock II.csproj", "{86EED15B-4886-4786-8851-653C4F3F37A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middle of the Linked List", "Middle of the Linked List\Middle of the Linked List.csproj", "{20D5C481-9295-4345-AE91-78D120D58623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middle of the Linked List", "Middle of the Linked List\Middle of the Linked List.csproj", "{20D5C481-9295-4345-AE91-78D120D58623}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count Elements", "Count Elements\Count Elements.csproj", "{E0BA3214-3D1D-4428-B869-4E18239B752C}"
 EndProject
@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Move Zeroes", "Move Zeroes\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Single Number", "Single Number\Single Number.csproj", "{A66B6114-C39B-4CAD-BF52-C46344407358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Min Stack", "Min Stack\Min Stack.csproj", "{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Min Stack", "Min Stack\Min Stack.csproj", "{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diameter of Binary Tree", "Diameter of Binary Tree\Diameter of Binary Tree.csproj", "{22726915-058D-41F0-9446-377A36D2E664}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22726915-058D-41F0-9446-377A36D2E664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22726915-058D-41F0-9446-377A36D2E664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22726915-058D-41F0-9446-377A36D2E664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22726915-058D-41F0-9446-377A36D2E664}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
