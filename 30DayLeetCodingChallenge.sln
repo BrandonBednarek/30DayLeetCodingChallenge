@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Single Number", "Single Num
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Min Stack", "Min Stack\Min Stack.csproj", "{15A639B3-0F36-4F1E-A7DE-C51CA37DF1A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diameter of Binary Tree", "Diameter of Binary Tree\Diameter of Binary Tree.csproj", "{22726915-058D-41F0-9446-377A36D2E664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diameter of Binary Tree", "Diameter of Binary Tree\Diameter of Binary Tree.csproj", "{22726915-058D-41F0-9446-377A36D2E664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Last Stone Weight", "Last Stone Weight\Last Stone Weight.csproj", "{4341457C-6F8F-4891-A657-21BBF0E7C67B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{22726915-058D-41F0-9446-377A36D2E664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22726915-058D-41F0-9446-377A36D2E664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22726915-058D-41F0-9446-377A36D2E664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4341457C-6F8F-4891-A657-21BBF0E7C67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4341457C-6F8F-4891-A657-21BBF0E7C67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4341457C-6F8F-4891-A657-21BBF0E7C67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4341457C-6F8F-4891-A657-21BBF0E7C67B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
