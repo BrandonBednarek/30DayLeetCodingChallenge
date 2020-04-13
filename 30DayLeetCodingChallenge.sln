@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Min Stack", "Min Stack\Min 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diameter of Binary Tree", "Diameter of Binary Tree\Diameter of Binary Tree.csproj", "{22726915-058D-41F0-9446-377A36D2E664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Last Stone Weight", "Last Stone Weight\Last Stone Weight.csproj", "{4341457C-6F8F-4891-A657-21BBF0E7C67B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Last Stone Weight", "Last Stone Weight\Last Stone Weight.csproj", "{4341457C-6F8F-4891-A657-21BBF0E7C67B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contiguous Array", "Contiguous Array\Contiguous Array.csproj", "{5FA93277-E4B4-47BF-8500-6CA067714E82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{4341457C-6F8F-4891-A657-21BBF0E7C67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4341457C-6F8F-4891-A657-21BBF0E7C67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4341457C-6F8F-4891-A657-21BBF0E7C67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA93277-E4B4-47BF-8500-6CA067714E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA93277-E4B4-47BF-8500-6CA067714E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA93277-E4B4-47BF-8500-6CA067714E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA93277-E4B4-47BF-8500-6CA067714E82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
