@@ -15,24 +15,36 @@ namespace Valid_Parenthesis_String
     {
         static void Main(string[] args)
         {
-            string s = "(*)))";
+            string s = "(*))";
             Console.WriteLine(CheckValidString(s));
         }
 
         public static bool CheckValidString(string s)
         {
-            int min = 0, max = 0;
+            int leftMin = 0, leftMax = 0;
 
-            foreach (char c in s)
+            foreach (var ch in s)
             {
-                min += c == '(' ? 1 : -1;
-                max += c != ')' ? 1 : -1;
-                if (max < 0)
-                    break;
-                min = Math.Max(min, 0);
+                if (ch == '(')
+                {
+                    leftMin++;
+                    leftMax++;
+                }
+                else if (ch == ')')
+                {
+                    leftMin = Math.Max(leftMin - 1, 0);
+                    leftMax--;
+
+                    if (leftMax < 0) return false;
+                }
+                else
+                {
+                    leftMin = Math.Max(leftMin - 1, 0);
+                    leftMax++;
+                }
             }
 
-            return min == 0;
+            return leftMin == 0;
         }
     }
 }
