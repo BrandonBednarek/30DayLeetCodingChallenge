@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perform String Shifts", "Pe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product of Array Except Self", "Product of Array Except Self\Product of Array Except Self.csproj", "{844C578C-AF92-4D6E-BB7A-2BC54AE3AFE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Parenthesis String", "Valid Parenthesis String\Valid Parenthesis String.csproj", "{6B375345-82E4-4A18-811B-685FED110C8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid Parenthesis String", "Valid Parenthesis String\Valid Parenthesis String.csproj", "{6B375345-82E4-4A18-811B-685FED110C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number of Islands", "Number of Islands\Number of Islands.csproj", "{C7105716-A4B2-43F8-8CA4-DF973E00B700}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{6B375345-82E4-4A18-811B-685FED110C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B375345-82E4-4A18-811B-685FED110C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B375345-82E4-4A18-811B-685FED110C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7105716-A4B2-43F8-8CA4-DF973E00B700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7105716-A4B2-43F8-8CA4-DF973E00B700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7105716-A4B2-43F8-8CA4-DF973E00B700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7105716-A4B2-43F8-8CA4-DF973E00B700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
